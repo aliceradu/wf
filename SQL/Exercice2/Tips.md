@@ -57,7 +57,6 @@ SELECT label, MAX(createdAt) FROM roles
 ```BAKUS NAUR
 SELECT [DISTINCT] select_expr [, select_expr ...]
     [FROM table_references [WHERE where_condition]]
-    [ORDER BY {col_name} [ASC | DESC], ...]
     [GROUP BY {col_name}]
+    [ORDER BY {col_name} [ASC | DESC], ...]
 ```
-

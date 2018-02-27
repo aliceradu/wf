@@ -1,22 +1,28 @@
 <?php
 
-$booleanTrue;
-$booleanFalse;
+$booleanTrue = true;
+$booleanFalse = false;
 
-$int;
+$int = 12 ;
 
-$float;
+$float = 12.3;
 
-$integer;
+$integer = 15;
 
-$double;
+$double = 2.62;
 
-$string;
+$string = 'hello world';
 
-$array;
+$array = ['hello world', 32, 15.5];
 
-$doubleDimenssionArray;
+$doubleDimenssionArray = [
+    ['me', 320],
+    ['some', 568]
+];
 
-$associativeArray;
+$associativeArray = [
+    'myself' => ['me', 320],
+    'zut' => ['some', 568]
+];
 
-$null;
+$null = null;
